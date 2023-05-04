@@ -1,0 +1,131 @@
+
+body {
+    margin:0;
+}
+canvas {
+    max-width: 1000px;
+    max-height: 800px;
+
+}
+
+p{
+    margin:0;
+}
+.flex-container {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+}
+h2{
+    display: inline;
+    margin: auto;
+    margin-top: 25px;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.button-1{
+
+}
+
+.flex-container-btn{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center
+}
+
+
+.flex-container-btn img{
+    margin-top:100px;
+    }
+
+.brighten {
+    filter: brightness(70%);
+}
+
+.score {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    padding: 4px 8px;
+    background-color: #ff9900;
+    border-radius: 4px;
+    position:fixed;
+    left:850px;
+}
+
+.game-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff9900;
+    text-align: center;
+    margin-bottom: 32px;
+    text-shadow: 2px 2px #333333;
+    letter-spacing: 2px;
+    border-bottom: 4px solid #333333;
+    padding-bottom: 8px;
+    line-height: 1.2;
+}
+
+#game-over-screen {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#restart-button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.current-lives{
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    padding: 4px 8px;
+    background-color: #ff9900;
+    border-radius: 4px;
+    position:fixed;
+    left:600px;
+}
+
+button{
+    display:block;
+    margin-top:25px;
+}
+
+#start-button{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#starting-page{
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+

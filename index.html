@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/nu-pogodi.png" type="image/x-icon">
+    <title>Ну погоди!</title>
+</head>
+<body>
+<audio id="background-sound" src="./audios/background-sound.mp3"></audio>
+<audio id="bell-ring" src="./audios/bell-sound.mp3"></audio>
+<p><span class="score" id="counter">Поймано яиц:</span></p>
+<p><span class="current-lives" id="current-lives">Осталось жизней:</span></p>
+<div class="flex-container">
+    <div class="flex-container-btn"><img id="button-1" src="img/button-1.png" alt="">
+    <img id="button-2" src="img/button-2.png" alt=""></div>
+    <canvas></canvas>
+    <div class="flex-container-btn"><img id="button-3" src="img/button-3.png" alt="">
+        <img id="button-4" src="img/button-4.png" alt=""></div>
+</div>
+<div class="flex-container game-title"><h2>Ну погоди! Волк собирает яйца!</h2></div>
+<div id="game-over-screen">
+    <h1>Game Over</h1>
+    <h2 id="Record">Ваш рекорд:</h2>
+    <button id="restart-button">Restart Game</button>
+</div>
+<div id="starting-page">
+    <button id="start-button">Начать игру!</button>
+</div>
+<script src = "./script.js"></script>
+</body>
+</html>
+
+
